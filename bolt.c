@@ -3,6 +3,7 @@
 int main(){
   int i=0;
   scanf("%d",&i);
+  //input is taken from user
   for(int j=0;j<i;j++){
   {float k1,k2,k3,v;
   scanf("%f %f %f %f",&k1,&k2,&k3,&v);
