@@ -14,7 +14,7 @@ int main()
         scanf("%d",&a);
         if (a == n)
         {
-            printf("you gussed number correctly\n");
+            printf("The correct number you guessed\n");
             break;
         }
         else if (a > n)
