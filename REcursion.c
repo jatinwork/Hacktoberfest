@@ -1,5 +1,5 @@
 #include<stdio.h>
-int fibo(int);
+int recursion(int);
 int main(){
 int n;
 scanf("%d",&n);
