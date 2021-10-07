@@ -4,7 +4,7 @@
 
 int main()
 {
-    int n, a, i = 0;
+    int n, a, j = 0;
     srand(time(0));
     n = (rand()) % 100 + 1;
     while(1){
@@ -20,12 +20,12 @@ int main()
         else if (a > n)
         {
             printf("You entered bigger number\n");
-            i++;
+            j++;
         }
         else
         {
             printf("You entered smaller number\n");
-            i++;
+            j++;
         }
     }
     printf("Number of attempts = %d", i);
